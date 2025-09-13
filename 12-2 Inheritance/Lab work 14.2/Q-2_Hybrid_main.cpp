@@ -13,6 +13,7 @@ int main()
     d1.getB();
     d1.getC();
     d1.getD();
-
+    cout << endl;
+    
     d1.sum();
 }
