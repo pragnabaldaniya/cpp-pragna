@@ -13,10 +13,18 @@ int main()
     }
     for (int i = 0; i < 5; i++)
     {
+<<<<<<< HEAD
         // printf ("%u\t", &a[i]);
 
         // printf ("%u\t", *ptr[i]);
 
         cout << *ptr[i] << "\t";
+=======
+        printf ("%u\t", &a[i]);
+
+        // printf ("%u\t", *ptr[i]);
+
+        // cout << *ptr[i] << "\t";
+>>>>>>> 83b0f476f9caea12e50b281610414b63e0279d4d
     }
 }
